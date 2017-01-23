@@ -88,7 +88,7 @@ namespace CarRemainServices.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Server=192.168.2.254;Database=Pacer;User Id=dsat;Password=dsat;")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Server=192.168.2.254;Database=Pacer;User Id=dsat;Password=xxxx;")]
         public string connectionstring {
             get {
                 return ((string)(this["connectionstring"]));

@@ -24,7 +24,7 @@
       <Value Profile="(Default)">1</Value>
     </Setting>
     <Setting Name="connectionstring" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">Server=192.168.2.254;Database=Pacer;User Id=dsat;Password=dsat;</Value>
+      <Value Profile="(Default)">Server=192.168.2.254;Database=Pacer;User Id=dsat;Password=xxxx;</Value>
     </Setting>
     <Setting Name="QueryVIPPlace" Type="System.String" Scope="Application">
       <Value Profile="(Default)">SELECT * FROM [dbo].[Park_VIPPlace]</Value>

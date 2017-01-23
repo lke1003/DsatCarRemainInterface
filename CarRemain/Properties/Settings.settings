@@ -27,7 +27,7 @@
       <Value Profile="(Default)">SELECT * FROM [dbo].[Park_VIPPlace]</Value>
     </Setting>
     <Setting Name="connectionstring" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">Server=192.168.1.226;Database=pacer;User Id=sa;Password=h123456h;</Value>
+      <Value Profile="(Default)">Server=192.168.1.226;Database=pacer;User Id=sa;Password=xxxxxx;</Value>
     </Setting>
   </Settings>
 </SettingsFile>
