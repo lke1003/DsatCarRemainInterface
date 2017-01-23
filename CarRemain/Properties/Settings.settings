@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CarRemain.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="QueryChange" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SELECT CardNo FROM [dbo].[Park_CarIn]</Value>
+    </Setting>
+    <Setting Name="QueryPlaceCorrect" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SELECT CorrectNum, BikeCorrectNum FROM [dbo].[Park_PlaceCorrectNum]</Value>
+    </Setting>
+    <Setting Name="QueryCar" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SELECT CardNo FROM [dbo].[Park_CarIn] where CardType='31'</Value>
+    </Setting>
+    <Setting Name="QueryMotor" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SELECT CardNo FROM [dbo].[Park_CarIn] where CardType='34'</Value>
+    </Setting>
+    <Setting Name="TimerInterval" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">62000</Value>
+    </Setting>
+    <Setting Name="FilePath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\\dsat\\parkingslot.txt</Value>
+    </Setting>
+    <Setting Name="UpdateTimeInterval" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="QueryVIPPlace" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SELECT * FROM [dbo].[Park_VIPPlace]</Value>
+    </Setting>
+    <Setting Name="connectionstring" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Server=192.168.1.226;Database=pacer;User Id=sa;Password=h123456h;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
